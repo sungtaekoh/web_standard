@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend><b>배송 정보</b></legend>
+      <label for="">주문 상품</label>
+      <input type="text" value="상품용 3kg" readonly><br>
+      <label for="">이름 </label>
+      <input type="text" placeholder="이름을 입력해 주세요"><br>
+      <label for="">배송 주소</label>
+      <input type="addr" id="addr_1" required><br>
+      <label for="">이메일</label>
+      <input type="email"><br>
+      <label for="">연락처</label>
+      <input type="tel" placeholder="하이픈을 빼고 적어 주세요"><br>
+      <label for="">배송 지정</label>
+      <input type="date"> <small>(주문일로부터 최소 3일 이후)</small>
+    </fieldset>
+    <div id="button">
+      <input type="submit" value="주문하기">
+      <input type="reset" value="취소하기">
+    </div>
+  </form>
+</body>
+</html>
