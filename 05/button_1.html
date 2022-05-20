@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend>배송 정보</legend>
+    <ul>
+      <li>이름 <input type="text" id="name" name="user_name"></li>
+      <li>배송 주소 <input type="addr" id="addr" name="user_addr"></li>
+      <li>이메일 <input type="mail" id="mail" name="user_mail"></li>
+      <li>연락처 <input type="tel" id="tel" name="user_tel"></li>
+      <li>배송 지정 (주문일로부터 최소 3일 이후)<br>
+        <input type="date" min="2022-05-20" max="2022-05-30">
+      </li>
+    </ul>
+  </fieldset>
+    <input type="submit" value="주문하기">
+    <input type="reset" value="취소하기">
+</body>
+</html>
